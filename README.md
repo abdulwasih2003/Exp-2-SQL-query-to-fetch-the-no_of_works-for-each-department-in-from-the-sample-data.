@@ -1,16 +1,19 @@
-# Exp-2 SQL query to fetch the no_of_works for each department in descending order From the sample data.
-## AIM:
+# Exp-2 SQL query to fetch the no_of_works for each department in descending order from the sample data.
+## Aim:
 To write a sql query to fetch the no_of_works for each department in descending order From the sample data.
-## PROCEDURE:
-### STEP 1:
-create database ORG.
-### STEP 2:
-create table Worker,Bonus,Title.
-### STEP 3:
+## Algorithm:
+### Step 1:
+Create database ORG.
+### Step 2:
+Create table Worker,Bonus,Title.
+### Step 3:
 Insert Value to the tables.
-### STEP 4:
+### Step 4:
 Select no_of_works for each department in descending order.
-## PROGRAM:
+### Step 5:
+Display the result.
+
+## Program:
 ```sql
 CREATE DATABASE ORG;
 SHOW DATABASES;
@@ -82,5 +85,5 @@ ORDER BY no_of_works DESC;
 ```
 ## OUTPUT:
 ![image](https://github.com/Karthikeyan21001828/DBMS_EX02/assets/93427303/eb9153d7-d54b-4c79-8b69-573fa8419af4)
-## RESULT:
+## Result:
 A sql query to fetch the no_of_works for each department in descending order From the sample data has been executed.
